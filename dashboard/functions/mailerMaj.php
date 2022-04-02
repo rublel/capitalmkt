@@ -1,7 +1,7 @@
 <?php
 function send_maj ($dest_mail,$dest_name,$subject,$body, $sender){
-	$email_sender = "capital.mkt.wlc@gmail.com"; //modifier
-	$email_password = "DL555555";//modifier
+	$email_sender = "********@******"; //modifier
+	$email_password = "*******";//modifier
     $mail = new PHPMailer(true);
     $mail->CharSet = 'UTF-8';
     $mail->IsSMTP();
