@@ -1,0 +1,117 @@
+.dashboard-content {
+    max-height: 100vh !important;
+    overflow: auto;
+}
+#list-customers {
+    max-height: 180px;
+    overflow: auto;
+}
+.fa-plus-square {
+    cursor: pointer;
+}
+ul {
+    padding-left: 0px !important;
+}
+#list-customers {
+    padding: 0px;
+    position: relative;
+    background-color: #fff;   
+    border-bottom: 0px !important;
+    overflow: auto;
+}
+#list-customers li {
+    list-style: none;
+    left: 0px !important;
+    border: 1px silver solid;
+    font-size: 15px;
+}
+#list-customers li .list-actions{
+    position: absolute;
+    right: 5px;  
+    color: #0d6efd !important;   
+}
+.list-actions i {
+    padding: 0;
+}
+#list-customers li .fa-user{
+    color: lightgray;   
+}
+li i {
+    padding: 0px 5px;
+}
+
+.activite-title {
+    background: rgb(248,249,250);
+    text-align: center;
+    height: 50px !important;
+}
+
+.content-table tr{
+    font-size: 13px !important;
+} 
+.content-table tr td:first-child{
+    font-weight: 600;
+}   
+li, .user-edit {
+    cursor: pointer;
+}  
+td {
+    border: 0px !important;
+}
+.input-group-text {
+    text-align: left;
+    display: block;
+    width: 100px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.fa-exclamation-circle {
+    color: #842029 !important;
+}
+.fa-check-circle {
+    color: rgb(2, 165, 2) !important;
+}   
+.unpaid {
+    background-color: pink !important;
+}       
+.no-client {
+    background-color: #e9ecef !important;
+}
+.fa-check-square {
+    color: rgb(2, 165, 2) !important;
+}
+.fa-sync-alt {
+    color: darkred !important;
+}
+.form-check .form-check-input {
+    margin-left: 0px !important;
+    margin-right: 10px;
+}
+.maj-unpaid {
+    background: none !important;
+    color: red !important;
+}
+.fa-times-circle {
+        color: red;
+}
+.menu-list::-webkit-scrollbar {
+    width: 12px;
+    /*width of the entire scrollbar */
+}
+
+.menu-list::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+}
+
+.menu-list::-webkit-scrollbar-thumb {
+    background-color: #6C757D ;
+    /*color of the scroll thumb*/
+    border-radius: 20px;
+    /*roundness of the scroll thumb*/
+    border: 2px solid #fff;
+    /*creates padding around scroll thumb*/
+}
+i {
+    cursor: pointer;
+}
